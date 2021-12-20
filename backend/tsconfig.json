@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowJs": false,
+    "baseUrl": "./",
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "paths": {
+      "@src/*": ["./src/*"]
+    },
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "preserveSymlinks": true,
+  },
+  "include": ["**/*.ts", "**/*.js"],
+  "exclude": ["node_modules", "dist"]
+}

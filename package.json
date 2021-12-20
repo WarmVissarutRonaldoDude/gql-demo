@@ -1,0 +1,10 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": ""
+  },
+  "author": "Visalud T.",
+  "license": "ISC"
+}

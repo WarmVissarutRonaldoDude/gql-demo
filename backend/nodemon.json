@@ -1,0 +1,9 @@
+{
+  "ignore": ["**/*.test.ts", "**/*.test.js", "node_modules"],
+  "watch": [
+    "dist/"
+  ],
+  "exec": "yarn start",
+  "ext": "js,ts,json",
+  "delay": 3000
+}
